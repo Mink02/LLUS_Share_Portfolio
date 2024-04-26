@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar-container{
+  height: 85px;
+  background-color: #232323;
+}
+
+.title{
+  margin-left: 10px;
+}
+
+.nav > ul{
+  display: flex;
+}
+
+li{
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+
+.title{
+  color:white;
+  font-size: 40px;
+}
+
