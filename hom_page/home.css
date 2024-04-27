@@ -2,13 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #333; /* Dark grayish background */
-    color: #fff; /* White text */
+    background-color: #232323; /* Dark grayish background */
+    color: #FFFFFF; /* White text */
 }
 
 header {
-    background-color: #111; /* Darker gray for the header */
-    padding: 10px 0;
+    background-color: #232323; /* Same as body background */
+    padding: 10px 20px;
 }
 
 nav ul {
@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -38,6 +38,23 @@ nav ul li a {
 }
 
 .tagline {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: lighter;
     margin-top: 20px;
+}
+
+.example-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.image {
+    width: 30%; /* Adjust as needed */
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
