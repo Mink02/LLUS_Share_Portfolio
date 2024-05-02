@@ -1,0 +1,57 @@
+a{ 
+  text-decoration: none;
+  color: inherit;
+  /* background-color: white; */
+  padding: 70px;
+}
+
+.box:hover{
+  background-color: #444; /* Change this to your desired background color */
+}
+
+body{
+  background-color: #232323;
+}
+
+.title{
+  /* border:1px solid white; */
+  width: auto;
+  margin-top: 80px;
+  height: 114px;
+  display: flex;
+  justify-content: center; align-items: center;
+}
+
+.title > span{
+  color: white;
+  font-size: 50px;
+}
+
+.button-container{
+  width: auto;
+  height: 500px;
+  /* border: 1px solid white; */
+  margin-top: 10px;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.button-box{
+  /* border: 1px solid white; */
+  height: 450px;
+  width: 800px;
+  display: flex;
+}
+
+.box{
+  border: 1px solid white;
+  height: 450px;
+  flex-grow: 1; flex-basis: 0;
+  border-radius: 10px;
+  color:white; font-size: 50px;
+  text-align: center;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.browsing-box{
+  margin-left: 20px;
+}
