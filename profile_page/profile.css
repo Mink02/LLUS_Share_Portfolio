@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar-container{
+  height: 85px;
+  background-color: #232323;
+}
+
+.title{
+  margin-left: 10px;
+}
+
+.nav > ul{
+  display: flex;
+}
+
+li{
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+
+.title{
+  color:white;
+  font-size: 40px;
+}
+
+.profile-info{
+  margin-left: 30px; margin-top: 30px;
+}
+
+.saved-nav-bar{
+  border: 1px solid red;
+  height: 80px;
+  display: flex; align-items: end;
+}
+
+.nav-container{
+  border: 1px solid orange;
+  height: 40px; width: 100%;
+  display: flex;
+}
+
+.button-box{
+  border: 1px solid green;
+  flex-basis: 0; flex-grow: 1;
+  display: flex;
+  align-items: end; justify-content: center;
+}
+
+.button-box> a{
+  color: inherit;
+}
+
+.result-box {
+  width: auto; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+}
+
+#result-list {
+  padding: 0;
+  margin: 0;
+}
+
+#result-list li {
+  list-style-type: none;
+  padding: 5px;
+  border-bottom: 1px solid #eee; /* Optional: Add a border between items */
+}
+
+span{
+  color: black;
+}
