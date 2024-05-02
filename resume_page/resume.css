@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Inria Serif';
+    font-weight: bold;
 }
 
 ul {
@@ -88,16 +90,18 @@ li {
     font-size: 30px;
 }
 
-.filter-container{
-    outline-style: solid;
-    outline-color: black;
+.filter-resumes-container{
     padding: 1%;
 }
 
-.filter-resumes-container{
-    display: flex;
-    padding: 2%;
+.filter-container{
+    width:21%;
+    outline-style: solid;
+    outline-color: black;
+    float: left;
+    padding: 1%;
 }
+
 
 .large-label{
     font-size:25px;
@@ -105,5 +109,52 @@ li {
 
 .sub-label{
     font-size:20px;
+}
+
+.resumes-container{
+    float:right;
+    width: 75%;
+}
+
+.resume-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-item{
+    width: 30%;
+    border-style: solid;
+    padding: 1%;
+    /* display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%; */
+}
+
+/* .resume-image{
+    border-style: solid;
+    width: 90%;
+    object-fit: cover;
+    
+}
+
+.resume-info{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+}
+*/
+
+
+.profile-image{
+    width:40px;
+    height:40px;
+    padding: 5px;
+}
+
+.bookmark-image{
+    height: 20px;
 }
 
