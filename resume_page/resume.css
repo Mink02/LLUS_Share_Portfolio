@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria Serif';
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar-container {
+    height: 85px;
+    background-color: #232323;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.nav>ul {
+    display: flex;
+}
+
+li {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+
+.title {
+    color: white;
+    font-size: 40px;
+}
+
+font-body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar-container {
+    height: 85px;
+    background-color: #232323;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.nav>ul {
+    display: flex;
+}
+
+li {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+
+.title {
+    color: white;
+    font-size: 40px;
+}
+
+.title-search-container{
+    display: flex;
+    padding: 2%;
+}
+
+.sub-title {
+    font-size: 30px;
+}
+
+.search-bar-container{
+    margin-left:auto;
+    font-size: 30px;
+}
+
+.filter-resumes-container{
+    padding: 1%;
+}
+
+.filter-container{
+    width:21%;
+    outline-style: solid;
+    outline-color: black;
+    float: left;
+    padding: 1%;
+}
+
+
+.large-label{
+    font-size:25px;
+}
+
+.sub-label{
+    font-size:20px;
+}
+
+.resumes-container{
+    float:right;
+    width: 75%;
+}
+
+.resume-row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+}
+
+.resume-item{
+    width: 28%;
+    border-style: solid;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.resume-image{
+    border-style: solid;
+    /* object-fit: cover; */
+    
+}
+
+
+.resume-info{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    word-break: break-all;
+}
+
+
+
+.profile-image{
+    width:45px;
+    height:45px;
+    padding: 5px;
+}
+
+.bookmark-image{
+    height: 30px;
+}
+
