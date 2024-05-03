@@ -38,13 +38,21 @@ li{
   font-size: 40px;
 }
 
+#cover-letter {
+  margin-left: 20px;
+  font-size: larger;
+  margin-bottom: 9px;
+}
 
 #filters {
-  border: 1px solid black;
-  padding: 20px;
-  margin: 20px;
+  outline-style: solid;
+  outline-color: black;
+  padding: 1%;
+  margin-left: 20px;
+  margin-top: 1px;
   background-color: #fff;
-  width: 150px;
+  float: left;
+  width: 19%;
 }
 
 #filters .section label {
@@ -52,6 +60,47 @@ li{
   margin: 5px 0;
 }
 
+#filters h2 {
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+
 #filters h4 {
   text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin-top: 2px;
+}
+
+#portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+article {
+  border: 1px solid #ccc;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+article footer {
+  padding: 10px;
+}
+
+article h3, article p {
+  margin: 5px 0; 
+}
+
+#portfolio-items h3, p {
+  text-align: left;
 }
