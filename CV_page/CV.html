@@ -8,13 +8,6 @@
 </head>
 <body>
 
-<!-- <header>
-  <h1>Personal Portfolio</h1>
-  <div id="search-container">
-    <input type="search" id="search" placeholder="Search...">
-  </div>
-</header> -->
-
 <div class="nav-bar-container">
     <div class="nav-bar">
       <div class="title">Personal Portfolio</div>
@@ -30,33 +23,67 @@
     </div>
   </div>
 
-<aside>
-  <h2>Cover Letter</h2>
-  <section id="filters">
-    <h3>Filter by</h3>
-    <fieldset>
-      <legend>Industry</legend>
-      <label><input type="checkbox" name="industry" value="finance"> Finance</label>
-      <label><input type="checkbox" name="industry" value="healthcare"> Healthcare</label>
-      <label><input type="checkbox" name="industry" value="it"> IT</label>
-    </fieldset>
-    <!-- Add other filters similarly -->
-  </section>
+<aside id="cover-letter">
+  <h1>Cover Letter</h1>
 </aside>
+
+<aside id = "filters">
+    <h3>Filter by</h3>
+    <div class="section">
+      <div class="industry">
+        <h4>Industry</h4>
+        <label><input type="checkbox" name="industry" value="finance"> Finance</label>
+        <label><input type="checkbox" name="industry" value="healthcare"> Healthcare</label>
+        <label><input type="checkbox" name="industry" value="it"> IT</label>
+      </div>
+  
+      <div class="experience_level">
+        <h4>Experience Level</h4>
+        <label><input type="checkbox" name="Entry-Level" value="entry-level"> Entry-Level</label>
+        <label><input type="checkbox" name="Senior-Level" value="senior-level"> Senior-Level</label>
+        <label><input type="checkbox" name="Management" value="management"> Management</label>
+      </div>
+  
+      <div class="job_type">
+        <h4>Job Type</h4>
+        <label><input type="checkbox" name="Full-time" value="full-time"> Full-time</label>
+        <label><input type="checkbox" name="Internship" value="internship"> Internship</label>
+        <label><input type="checkbox" name="Freelance" value="freelance"> Freelance</label>
+      </div>
+
+      <div class="'education-level">
+        <h4>Education Level</h4>
+        <label><input type="checkbox" name="Bachelor's Degree" value="bachelor"> Bachelor's Degree</label>
+        <label><input type="checkbox" name="Master's Degree" value="master"> Master's Degree</label>
+        <label><input type="checkbox" name="High School Diploma" value="high school"> High School Diploma</label>
+      </div>
+
+      <div class="sort-by">
+        <h4>Sort By</h4>
+        <label><input type="checkbox" name="Date (Asc.)" value="date (asc.)"> Date (Asc.)</label>
+        <label><input type="checkbox" name="Date (Desc.)" value="date (desc.)"> Date (Desc.)</label>
+        <label><input type="checkbox" name="Bookmark (Asc.)" value="bookmark (asc.)"> Bookmark</label>
+        <label><input type="checkbox" name="Bookmark (Desc.)" value="bookmark (desc)"> Bookmark</label>
+
+      </div>
+    </div>
+    
+</aside>
+    
 
 <main>
   <section id="portfolio-items">
     <!-- Portfolio items will go here -->
     <article>
-      <img src="placeholder.jpg" alt="CV thumbnail">
+      <img src="CV thumbnail" alt="white-filler.png">
       <footer>
         <h3>NAME</h3>
         <p>CV Description</p>
       </footer>
     </article>
-    <!-- Repeat the article for each portfolio item -->
+
     <article>
-        <img src="placeholder.jpg" alt="CV thumbnail">
+      <img src="CV thumbnail" alt="white-filler.png">
         <footer>
           <h3>NAME</h3>
           <p>CV Description</p>
@@ -64,7 +91,7 @@
       </article>
 
     <article>
-        <img src="placeholder.jpg" alt="CV thumbnail">
+      <img src="CV thumbnail" alt="white-filler.png">
         <footer>
           <h3>NAME</h3>
           <p>CV Description</p>
@@ -72,7 +99,7 @@
       </article>
     
     <article>
-        <img src="placeholder.jpg" alt="CV thumbnail">
+      <img src="CV thumbnail" alt="white-filler.png">
         <footer>
           <h3>NAME</h3>
           <p>CV Description</p>
