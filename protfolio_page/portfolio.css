@@ -119,42 +119,57 @@ li {
 .portfolio-row{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 3%;
 }
 
 .portfolio-item{
-  width: 30%;
+  width: 28%;
   border-style: solid;
-  padding: 1%;
-  /* display: flex;
+  display: flex;
   justify-items: center;
   align-items: center;
   flex-direction: column;
-  padding: 3%; */
+  padding-top: 2%;
 }
 
-/* .resume-image{
+.portfolio-image{
   border-style: solid;
-  width: 90%;
-  object-fit: cover;
+  width: 250px;
+  height: 250px;
+
   
 }
 
-.resume-info{
+
+.portfolio-info{
   display:flex;
   flex-direction: row;
   align-items: center;
-  height: 80px;
+  width: 70%;
+  word-break: break-all;
+  padding-right: 15%;
 }
-*/
+
 
 
 .profile-image{
-  width:40px;
-  height:40px;
+  width: 30px;
+  height: 30px;
   padding: 5px;
 }
 
 .bookmark-image{
-  height: 20px;
+  padding-left: 7%;
+  height: 30px;
 }
 
+.description{
+  font-size: 15px;
+}
+
+
+
+.name{
+  padding-top: 5%;
+  padding-right: 43%;
+}
