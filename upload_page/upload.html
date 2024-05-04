@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+    <div class="container">
+        <h1>Personal Portfolio</h1>
+        <form action="/submit-your-form-handler" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title">
+            </div>
+            <div class="form-group">
+                <label>Type</label>
+                <div class="radio-group">
+                    <input type="radio" id="resume" name="documentType" value="resume">
+                    <label for="resume" class="radio-label">Resume</label>
+                    <input type="radio" id="coverLetter" name="documentType" value="coverLetter">
+                    <label for="coverLetter" class="radio-label">Cover letter</label>
+                    <input type="radio" id="portfolio" name="documentType" value="portfolio">
+                    <label for="portfolio" class="radio-label">Portfolio</label>
+                </div>
+                <input type="file" id="file" name="file">
+            </div>
+            <div class="form-group">
+                <label for="position">Position</label>
+                <input type="text" id="position" name="position">
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" rows="4" maxlength="150"></textarea>
+            </div>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
 </body>
 </html>
