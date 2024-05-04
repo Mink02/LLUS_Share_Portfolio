@@ -1,9 +1,9 @@
-/* body{
+body{
   margin: 0;
   padding: 0;
-  font-family: 'Inria Serif';
-  font-weight: Bold;
-}*/
+  /* font-family: 'Inria Serif';
+  font-weight: Bold; */
+}
 
 ul{
   list-style: none;
@@ -54,49 +54,12 @@ li{
   font-size: 40px;
 }
 
-body {
-  display: flex;
-  flex-direction: column; /* Stacks children vertically */
-  align-items: stretch; /* Stretches children to match the parent's width */
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  gap: 10px;
-  font-family: 'Inria Serif';
-}
-
-.nav-bar-container,
-.body-container,
-#cover-letter,
-#filters,
-main {
-  width: 100%; /* Ensures all major sections take full width */
-}
-
-.title-search-container,
-.search-bar-container {
-  padding: 1%; /* Adjust padding if necessary */
-}
-
-#cover-letter {
-  margin: 0; /* Removes margin to let the flexbox 'gap' control the spacing */
-}
-
-.search-bar-container form {
-  display: flex;
-  justify-content: space-between; /* Adds space between the input and the button */
-}
-
-.search-bar-container input[type="text"] {
-  flex-grow: 1; /* Allows the text input to grow and fill available space */
-  margin-right: 10px; /* Adds a small margin between the text input and the button */
-}
 
 .sub-title {
   font-size: 30px;
 }
 
-#filters {
+/* #filters {
   outline-style: solid;
   outline-color: black;
   padding: 1%;
@@ -105,27 +68,33 @@ main {
   background-color: #fff;
   float: left;
   width: 19%;
+} */
+
+.filter-resumes-container{
+  padding: 1%;
 }
 
-#filters .section label {
-  display: block;
-  margin: 5px 0;
+.filter-container{
+  width:21%;
+  outline-style: solid;
+  outline-color: black;
+  float: left;
+  padding: 1%;
 }
 
-#filters h2 {
-  margin-bottom: 3%;
-  margin-top: 1%;
+
+.large-label{
+  font-size:25px;
 }
 
-#filters h4 {
-  text-decoration: underline;
-  margin-bottom: 5px;
+.sub-label{
+  font-size:20px;
 }
 
-label {
+/* label {
   display: block;
   margin-top: 2px;
-}
+} */
 
 #portfolio-items {
   display: grid;
