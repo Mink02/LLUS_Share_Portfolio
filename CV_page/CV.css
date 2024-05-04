@@ -1,9 +1,9 @@
-body{
+/* body{
   margin: 0;
   padding: 0;
-  /* font-family: 'Inria Serif';
-  font-weight: Bold; */
-}
+  font-family: 'Inria Serif';
+  font-weight: Bold;
+}*/
 
 ul{
   list-style: none;
@@ -17,6 +17,22 @@ a{
 .nav-bar-container{
   height: 85px;
   background-color: #232323;
+}
+
+
+.title-search-container{
+  display: flex;
+  padding: 1%;
+}
+
+.search-bar-container{
+  margin-left:auto;
+  font-size: 30px;
+}
+
+font-body {
+  margin: 0;
+  padding: 0;
 }
 
 .title{
@@ -38,10 +54,46 @@ li{
   font-size: 40px;
 }
 
+body {
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  align-items: stretch; /* Stretches children to match the parent's width */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  gap: 10px;
+  font-family: 'Inria Serif';
+}
+
+.nav-bar-container,
+.body-container,
+#cover-letter,
+#filters,
+main {
+  width: 100%; /* Ensures all major sections take full width */
+}
+
+.title-search-container,
+.search-bar-container {
+  padding: 1%; /* Adjust padding if necessary */
+}
+
 #cover-letter {
-  margin-left: 20px;
-  font-size: larger;
-  margin-bottom: 9px;
+  margin: 0; /* Removes margin to let the flexbox 'gap' control the spacing */
+}
+
+.search-bar-container form {
+  display: flex;
+  justify-content: space-between; /* Adds space between the input and the button */
+}
+
+.search-bar-container input[type="text"] {
+  flex-grow: 1; /* Allows the text input to grow and fill available space */
+  margin-right: 10px; /* Adds a small margin between the text input and the button */
+}
+
+.sub-title {
+  font-size: 30px;
 }
 
 #filters {
