@@ -1,33 +1,41 @@
-body{
+body {
   margin: 0;
   padding: 0;
   /* font-family: 'Inria Serif';
-  font-weight: Bold; */
+  font-weight: bold; */
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-.nav-bar-container{
+.nav-bar-container {
   height: 85px;
   background-color: #232323;
 }
 
-
-.title-search-container{
-  display: flex;
-  padding: 1%;
+.title {
+  margin-left: 10px;
 }
 
-.search-bar-container{
-  margin-left:auto;
-  font-size: 30px;
+.nav>ul {
+  display: flex;
+}
+
+li {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+
+.title {
+  color: white;
+  font-size: 40px;
 }
 
 font-body {
@@ -35,42 +43,54 @@ font-body {
   padding: 0;
 }
 
-.title{
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar-container {
+  height: 85px;
+  background-color: #232323;
+}
+
+.title {
   margin-left: 10px;
 }
 
-.nav > ul{
+.nav>ul {
   display: flex;
 }
 
-li{
+li {
   flex-basis: 0;
   flex-grow: 1;
 }
 
 
-.title{
-  color:white;
+.title {
+  color: white;
   font-size: 40px;
 }
 
+.title-search-container{
+  display: flex;
+  padding: 2%;
+}
 
 .sub-title {
   font-size: 30px;
 }
 
-/* #filters {
-  outline-style: solid;
-  outline-color: black;
-  padding: 1%;
-  margin-left: 20px;
-  margin-top: 1px;
-  background-color: #fff;
-  float: left;
-  width: 19%;
-} */
+.search-bar-container{
+  margin-left:auto;
+  font-size: 30px;
+}
 
-.filter-resumes-container{
+.filters{
   padding: 1%;
 }
 
@@ -91,12 +111,56 @@ li{
   font-size:20px;
 }
 
+.CV{
+  float: right;
+  width: 75%;
+}
+
+.CV-row{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3%;
+}
+
+.CV-item{
+  width: 28%;
+    border-style: solid;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.CV-preview {
+  border-style: solid;
+}
+
+.description-text {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  word-break: break-all;
+}
+
+.profile-image{
+  width:45px;
+  height:45px;
+  padding: 5px;
+}
+
+.bookmark-image{
+  height: 30px;
+}
+
+
 /* label {
   display: block;
   margin-top: 2px;
 } */
 
-#portfolio-items {
+/* #portfolio-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   grid-gap: 20px;
@@ -124,4 +188,4 @@ article h3, article p {
 
 #portfolio-items h3, p {
   text-align: left;
-}
+} */

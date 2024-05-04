@@ -11,141 +11,207 @@
 
 <body>
 
-<div class="nav-bar-container">
-    <div class="nav-bar">
-      <div class="title">Personal Portfolio</div>
-      <div class="nav">
-        <ul>
-          <li><a href="../resume_page/resume.html">Resume</a></li>
-          <li><a href="../protfolio_page/portfolio.html">Portfolio</a></li>
-          <li><a href="../CV_page/CV.html">Cover Letter</a></li>
-          <li><a href="../upload_page/upload.html">Upload</a></li>
-          <li><a href="../profile_page/profile.html">Profile</a></li>
-        </ul>
-      </div>
-      
-    </div>
-  </div>
-
-  <div class="body-container">
-    <div class="title-search-container">
-      <div class="sub-title">Cover Letter</div>
-        <div class="search-bar-container">
-            <form class="search-bar-form">
-                <input type="text" size="50">
-                <input type="submit" value="Search">
-            </form>
+  <div class="nav-bar-container">
+      <div class="nav-bar">
+        <div class="title">Personal Portfolio</div>
+        <div class="nav">
+          <ul>
+            <li><a href="../resume_page/resume.html">Resume</a></li>
+            <li><a href="../protfolio_page/portfolio.html">Portfolio</a></li>
+            <li><a href="../CV_page/CV.html">Cover Letter</a></li>
+            <li><a href="../upload_page/upload.html">Upload</a></li>
+            <li><a href="../profile_page/profile.html">Profile</a></li>
+          </ul>
         </div>
+        
+      </div>
     </div>
 
-    
+    <div class="body-container">
+      <div class="title-search-container">
+        <div class="sub-title">Cover Letter</div>
+          <div class="search-bar-container">
+              <form class="search-bar-form">
+                  <input type="text" size="50">
+                  <input type="submit" value="Search">
+              </form>
+          </div>
+      </div>
 
-<div class="filters">
-  <div class="filter-container">
-    <form class="filter-form">
-      <label class="large-label">Filter By</label><br>
-      <label for="Industry" class="sub-label">Industry</label><br>
-      <hr class="solid">
-      <input list="industries">
-          <datalist id="industries">
-              <option value="IT"></option>
-              <option value="Advertising/Marketing"></option>
-              <option value="Education"></option>
-              <option value="Agriculture"></option>
-              <option value="Aerospace"></option>
-          </datalist><br>
+      
 
-          <label for="Experience" class="sub-label">Experience Level</label><br>
-          <hr class="solid">
-          <input list="experience-levels">
-          <datalist id="experience-levels">
-              <option value="Internship"></option>
-              <option value="Entry Level"></option>
-              <option value="Associate"></option>
-              <option value="Mid-Senior Level"></option>
-              <option value="Director"></option>
-              <option value="Executive"></option>
-          </datalist><br>
+  <div class="filters">
+    <div class="filter-container">
+      <form class="filter-form">
+        <label class="large-label">Filter By</label><br>
+        <label for="Industry" class="sub-label">Industry</label><br>
+        <hr class="solid">
+        <input list="industries">
+            <datalist id="industries">
+                <option value="IT"></option>
+                <option value="Advertising/Marketing"></option>
+                <option value="Education"></option>
+                <option value="Agriculture"></option>
+                <option value="Aerospace"></option>
+            </datalist><br>
 
-          <label for="JobType" class="sub-label">Job Type</label><br>
-          <hr class="solid">
-          <input type="checkbox" id="jobtype1" name="jobtype1" value="Internship">
-          <label for="jobtype1">Internship</label><br>
-          <input type="checkbox" id="jobtype2" name="jobtype2" value="Fulltime">
-          <label for="jobtype2">Full Time</label><br>
-          <input type="checkbox" id="jobtype3" name="jobtype3" value="Freelance">
-          <label for="jobtype3">Freelance</label><br>
+            <label for="Experience" class="sub-label">Experience Level</label><br>
+            <hr class="solid">
+            <input list="experience-levels">
+            <datalist id="experience-levels">
+                <option value="Internship"></option>
+                <option value="Entry Level"></option>
+                <option value="Associate"></option>
+                <option value="Mid-Senior Level"></option>
+                <option value="Director"></option>
+                <option value="Executive"></option>
+            </datalist><br>
 
-          <label for="EducationLevel" class="sub-label">Education Level</label><br>
-          <hr class="solid">
-          <input type="checkbox" id="educationlevel1" name="educationlevel1" value="Highschool Diploma">
-          <label for="educationlevel1">Highschool Diploma</label><br>
-          <input type="checkbox" id="educationlevel2" name="educationlevel2" value="Associate Degree">
-          <label for="educationlevel2">Associate Degree</label><br>
-          <input type="checkbox" id="educationlevel3" name="educationlevel3" value="Bachelor's Degree">
-          <label for="educationlevel3">Bachelor's Degree</label><br>
-          <input type="checkbox" id="educationlevel4" name="educationlevel4" value="Masters/Graduate Degree">
-          <label for="educationlevel4">Masters/Graduate Degree</label><br>
-          <input type="checkbox" id="educationlevel5" name="educationlevel5" value="Doctorate Degree">
-          <label for="educationlevel5">Doctorate Degree</label><br>
+            <label for="JobType" class="sub-label">Job Type</label><br>
+            <hr class="solid">
+            <input type="checkbox" id="jobtype1" name="jobtype1" value="Internship">
+            <label for="jobtype1">Internship</label><br>
+            <input type="checkbox" id="jobtype2" name="jobtype2" value="Fulltime">
+            <label for="jobtype2">Full Time</label><br>
+            <input type="checkbox" id="jobtype3" name="jobtype3" value="Freelance">
+            <label for="jobtype3">Freelance</label><br>
 
-          <label for="SortType" class="sub-label">Sort By</label><br>
-          <hr class="solid">
-          <input type="radio" id="sorttype1" name="sorttype" value="Date (Asc.)">
-          <label for="sorttype1">Date (Asc.)</label><br>
-          <input type="radio" id="sorttype2" name="sorttype" value="Date (Desc.)">
-          <label for="sorttype2">Date (Desc.)</label><br>
-          <input type="radio" id="sorttype3" name="sorttype" value="Bookmarks (Asc.)">
-          <label for="sorttype3">Bookmarks (Asc.)</label><br>
-          <input type="radio" id="sorttype4" name="sorttype" value="Bookmakrs (Desc.)">
-          <label for="sorttype4">Bookmakrs (Desc.)</label><br>
-    </form>
+            <label for="EducationLevel" class="sub-label">Education Level</label><br>
+            <hr class="solid">
+            <input type="checkbox" id="educationlevel1" name="educationlevel1" value="Highschool Diploma">
+            <label for="educationlevel1">Highschool Diploma</label><br>
+            <input type="checkbox" id="educationlevel2" name="educationlevel2" value="Associate Degree">
+            <label for="educationlevel2">Associate Degree</label><br>
+            <input type="checkbox" id="educationlevel3" name="educationlevel3" value="Bachelor's Degree">
+            <label for="educationlevel3">Bachelor's Degree</label><br>
+            <input type="checkbox" id="educationlevel4" name="educationlevel4" value="Masters/Graduate Degree">
+            <label for="educationlevel4">Masters/Graduate Degree</label><br>
+            <input type="checkbox" id="educationlevel5" name="educationlevel5" value="Doctorate Degree">
+            <label for="educationlevel5">Doctorate Degree</label><br>
+
+            <label for="SortType" class="sub-label">Sort By</label><br>
+            <hr class="solid">
+            <input type="radio" id="sorttype1" name="sorttype" value="Date (Asc.)">
+            <label for="sorttype1">Date (Asc.)</label><br>
+            <input type="radio" id="sorttype2" name="sorttype" value="Date (Desc.)">
+            <label for="sorttype2">Date (Desc.)</label><br>
+            <input type="radio" id="sorttype3" name="sorttype" value="Bookmarks (Asc.)">
+            <label for="sorttype3">Bookmarks (Asc.)</label><br>
+            <input type="radio" id="sorttype4" name="sorttype" value="Bookmakrs (Desc.)">
+            <label for="sorttype4">Bookmakrs (Desc.)</label><br>
+      </form>
+    </div>
   </div>
-    <!-- <div class="section"> -->
-      <!-- <div class="industry">
-        <h4>Industry</h4>
-        <label><input type="checkbox" name="industry" value="finance"> Finance</label>
-        <label><input type="checkbox" name="industry" value="healthcare"> Healthcare</label>
-        <label><input type="checkbox" name="industry" value="it"> IT</label>
-      </div>
-  
-      <div class="experience_level">
-        <h4>Experience Level</h4>
-        <label><input type="checkbox" name="Entry-Level" value="entry-level"> Entry-Level</label>
-        <label><input type="checkbox" name="Senior-Level" value="senior-level"> Senior-Level</label>
-        <label><input type="checkbox" name="Management" value="management"> Management</label>
-      </div>
-  
-      <div class="job_type">
-        <h4>Job Type</h4>
-        <label><input type="checkbox" name="Full-time" value="full-time"> Full-time</label>
-        <label><input type="checkbox" name="Internship" value="internship"> Internship</label>
-        <label><input type="checkbox" name="Freelance" value="freelance"> Freelance</label>
-      </div>
 
-      <div class="'education-level">
-        <h4>Education Level</h4>
-        <label><input type="checkbox" name="Bachelor's Degree" value="bachelor"> Bachelor's Degree</label>
-        <label><input type="checkbox" name="Master's Degree" value="master"> Master's Degree</label>
-        <label><input type="checkbox" name="High School Diploma" value="high school"> High School Diploma</label>
+  <div class="CV">
+    <div class="CV-row">
+      <div class="CV-item">
+        <img class="CV-preview" src="white-filler.png">
+        <div class="CV-description">
+          <img class="profile-image" src="profile-pic.png">
+          <div class="description-text">
+            <p class="name">NAME</p>
+            <p class="description">DESCRIPTION FILLER</p>
+          </div>
+          <img class="bookmark-image" src="bookmark.png">
+        </div>
       </div>
-
-      <div class="sort-by">
-        <h4>Sort By</h4>
-        <label><input type="checkbox" name="Date (Asc.)" value="date (asc.)"> Date (Asc.)</label>
-        <label><input type="checkbox" name="Date (Desc.)" value="date (desc.)"> Date (Desc.)</label>
-        <label><input type="checkbox" name="Bookmark (Asc.)" value="bookmark (asc.)"> Bookmark</label>
-        <label><input type="checkbox" name="Bookmark (Desc.)" value="bookmark (desc)"> Bookmark</label>
-
+      <div class="CV-item">
+        <img class="CV-preview" src="white-filler.png">
+        <div class="CV-description">
+          <img class="profile-image" src="profile-pic.png">
+          <div class="description-text">
+            <p class="name">NAME</p>
+            <p class="description">DESCRIPTION FILLER</p>
+          </div>
+          <img class="bookmark-image" src="bookmark.png">
+        </div>
+      </div><div class="CV-item">
+        <img class="CV-preview" src="white-filler.png">
+        <div class="CV-description">
+          <img class="profile-image" src="profile-pic.png">
+          <div class="description-text">
+            <p class="name">NAME</p>
+            <p class="description">DESCRIPTION FILLER</p>
+          </div>
+          <img class="bookmark-image" src="bookmark.png">
+        </div>
       </div>
-    </div> -->
-    
-</div>
-    
+    </div>
 
-<main>
-  <section id="portfolio-items">
-    <!-- Portfolio items will go here -->
+    <div class="CV-row">
+      <div class="CV-item">
+        <img class="CV-preview" src="white-filler.png">
+        <div class="CV-description">
+          <img class="profile-image" src="profile-pic.png">
+          <div class="description-text">
+            <p class="name">NAME</p>
+            <p class="description">DESCRIPTION FILLER</p>
+          </div>
+          <img class="bookmark-image" src="bookmark.png">
+        </div>
+      </div>
+      <div class="CV-item">
+        <img class="CV-preview" src="white-filler.png">
+        <div class="CV-description">
+          <img class="profile-image" src="profile-pic.png">
+          <div class="description-text">
+            <p class="name">NAME</p>
+            <p class="description">DESCRIPTION FILLER</p>
+          </div>
+          <img class="bookmark-image" src="bookmark.png">
+        </div>
+      </div><div class="CV-item">
+        <img class="CV-preview" src="white-filler.png">
+        <div class="CV-description">
+          <img class="profile-image" src="profile-pic.png">
+          <div class="description-text">
+            <p class="name">NAME</p>
+            <p class="description">DESCRIPTION FILLER</p>
+          </div>
+          <img class="bookmark-image" src="bookmark.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="CV-row">
+      <div class="CV-item">
+        <img class="CV-preview" src="white-filler.png">
+        <div class="CV-description">
+          <img class="profile-image" src="profile-pic.png">
+          <div class="description-text">
+            <p class="name">NAME</p>
+            <p class="description">DESCRIPTION FILLER</p>
+          </div>
+          <img class="bookmark-image" src="bookmark.png">
+        </div>
+      </div>
+      <div class="CV-item">
+        <img class="CV-preview" src="white-filler.png">
+        <div class="CV-description">
+          <img class="profile-image" src="profile-pic.png">
+          <div class="description-text">
+            <p class="name">NAME</p>
+            <p class="description">DESCRIPTION FILLER</p>
+          </div>
+          <img class="bookmark-image" src="bookmark.png">
+        </div>
+      </div><div class="CV-item">
+        <img class="CV-preview" src="white-filler.png">
+        <div class="CV-description">
+          <img class="profile-image" src="profile-pic.png">
+          <div class="description-text">
+            <p class="name">NAME</p>
+            <p class="description">DESCRIPTION FILLER</p>
+          </div>
+          <img class="bookmark-image" src="bookmark.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <section id="portfolio-items">
     <article>
       <img class="CV-preview" src="white-filler.png">
       <footer>
@@ -172,7 +238,7 @@
 
    
   </section>
-</main>
+</main> -->
 
 </body>
 </html>
