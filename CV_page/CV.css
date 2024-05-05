@@ -124,37 +124,56 @@ li {
 
 .CV-item{
   width: 28%;
-    border-style: solid;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 2%;
+  border-style: solid;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2%;
 }
 
 .CV-preview {
   border-style: solid;
+  width: 250px;
+  height: 250px;
+}
+
+.CV-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .description-text {
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  width: 70%;
-  word-break: break-all;
+  width: 100%;
+  /* word-break: break-word;
+  padding-right: 15%; */
 }
 
 .profile-image{
-  width:45px;
-  height:45px;
-  padding: 5px;
+  width:30px;
+  height:30px;
+  padding-left: 7%;
 }
 
 .bookmark-image{
+  padding-right: 7%;
   height: 30px;
 }
 
+/* .name{
+  padding-top: 5%;
+  padding-right: 43%;
+}
 
+.description{
+  font-size: 15px;
+}
+ */
 /* label {
   display: block;
   margin-top: 2px;
