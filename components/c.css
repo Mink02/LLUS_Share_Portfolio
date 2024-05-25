@@ -1,0 +1,29 @@
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.navbar{
+  border: 1px solid red;
+  height: 50px;
+  display: flex; 
+  justify-content: center; align-items: center;
+}
+
+.navbar-box{
+  border: 1px solid orange;
+  height: 50px; width: 700px;
+}
+
+.green{
+  border: 1px solid green;
+  background-color: #4fa455;
+  height: 50px; border-radius: 10px;
+  display: flex; 
+}
+
+.nav{
+  border: 1px solid blue;
+  flex-grow: 1; flex-basis: 0;
+  display: flex; align-items: center; justify-content: center;
+  color:white;
+}
