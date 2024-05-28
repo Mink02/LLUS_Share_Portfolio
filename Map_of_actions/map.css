@@ -1,32 +1,107 @@
 .title {
-    text-align: center;
+  text-align: center;
 }
-#arrow {
-    border-right:2px solid black;
-    border-bottom:2px solid black;
-    width:10px;
-    height:10px;
-    transform: rotate(-45deg);
-    margin-top:40px;
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
 
 
 
-ul li {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  width: 100%;
+}
+
+.navbar-box {
+  height: 50px;
+  width: 700px;
+}
+
+.green {
+  border: 1px solid green;
+  background-color: #4fa455;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.nav {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.card {
+  align-items: center;
   position: relative;
-	padding-bottom: 10px;
+  display: grid;
+  grid-template-areas: "media-text-media media-text-content";
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  grid-template-rows: auto;
 }
-ul {
-    list-style: none;
-  }
-ul li:before{
-    content: '';
-    position: absolute;
-    border-right:2px solid black;
-    border-bottom:2px solid black;
-    width:10px;
-    height:10px;
-    top: calc(50% - 4px);
-    left: -20px;
-    transform: translateY(-50%) rotate(-45deg);
- }
+
+.figure{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  unicode-bidi: isolate;
+}
+
+.card-text{
+  grid-area: media-text-content;
+  position: relative;
+  z-index: 1;
+}
+
+.card-text-content{
+  padding: 5%;
+}
+
+.header-image{
+  max-width: 100%;
+  
+  z-index: 0;
+}
+
+.header-image-file{
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.header{
+  position: relative;
+  text-align: center;
+}
+
+.title-container{
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  background-color: rgba(0,0,0,.35);
+}
+
+.title{
+  color: white;
+  z-index: 1;
+  font-family: Jost, Helvetica Neue, Arial Narrow, sans-serif;
+}
