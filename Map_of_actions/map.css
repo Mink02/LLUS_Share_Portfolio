@@ -71,10 +71,12 @@ a {
   grid-area: media-text-content;
   position: relative;
   z-index: 1;
+  font-family: "Merriweather Sans", "Futura", sans-serif;
 }
 
 .card-text-content{
   padding: 5%;
+  
 }
 
 .header-image{
@@ -105,3 +107,4 @@ a {
   z-index: 1;
   font-family: Jost, Helvetica Neue, Arial Narrow, sans-serif;
 }
+  
