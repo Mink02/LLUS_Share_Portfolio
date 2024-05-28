@@ -1,0 +1,160 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background-image: url('https://fridaysforfuture.org/wp-content/uploads/2020/05/fridaysforfutureusa_20200227_175157_1-.webp');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #fff; /* white text on top of image */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.title-background {
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    color: #fff; /* White text */
+    padding: 10px 0; /* Adds some padding above and below the text */
+    margin: 0;
+    width: 100%; /* Ensures text alignment and background span the full width */
+    text-align: center; /* Center the text horizontally */
+}
+
+.description {
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+    padding-left: 23%;
+}
+
+.green-box-container {
+    display: flex;
+    justify-content: center; /* Centers the green box horizontally */
+    align-items: center; /* Centers the green box vertically */
+    height: 100%; /* Ensure the container takes full height */
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.green-box {
+    background-color: darkgreen;
+    background-position: center;
+    height: 140px;
+    width: 720px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for screens that are 768px wide or less */
+@media (max-width: 768px) {
+    .green-box {
+        height: 120px; /* Smaller height for smaller screens */
+    }
+    
+    .description {
+        background-color: darkgreen;
+        color: white;
+        font-size: 20px;
+        padding: 0;
+    }
+}
+
+/* Styles for screens that are 480px wide or less */
+@media (max-width: 480px) {
+    .green-box {
+        height: 120px; /* Even smaller height for very small screens */
+        width: 80px;
+    }
+
+    .description {
+        background-color: darkgreen;
+        color: white;
+        font-size: 20px;
+        padding: 0;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+}
+
+.box {
+    /* background: #f0f0f0; */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+}
+
+.box p {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.box img {
+    width: 190px; /* Adjust the size as needed */
+    height: 170px; /* Adjust the size as needed */
+    margin-bottom: 10px; /* Space between the image and the text */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Media query for screens with max-width 768px */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Stack the columns vertically */
+    }
+
+    .column {
+        flex-basis: 100%; /* Each column takes full width */
+    }
+
+    .box {
+        margin: 10px auto; /* Center the boxes horizontally */
+    }
+}
