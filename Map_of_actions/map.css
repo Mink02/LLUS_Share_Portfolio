@@ -49,35 +49,79 @@ a {
 
 .card {
   align-items: center;
-  position: relative;
-  display: grid;
-  grid-template-areas: "media-text-media media-text-content";
+  /* grid-template-areas: "media-text-media media-text-content"; */
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
-  grid-template-rows: auto;
-}
-
-.figure{
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  unicode-bidi: isolate;
-}
-
-.card-text{
-  grid-area: media-text-content;
-  position: relative;
-  z-index: 1;
+  display: flex;
+  height: 300px;
+  margin-top: 150px;
+  width: 70%;
+  
   font-family: "Merriweather Sans", "Futura", sans-serif;
 }
 
-.card-text-content{
-  padding: 5%;
+
+
+.card-image{
+  /* grid-area: media-text-media; */
+  margin: 0;
+  /* width: 30%; */
+  height: 400px;
+  
   
 }
+
+.card-image img{
+  /* height: auto; */
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.card-text{
+  /* grid-area: media-text-content; */
+  
+  margin-left: -150px;
+  background-color: white;
+  height: 80%;
+  width: 70%;
+  align-content: center;
+  font-size: 20px;
+  padding: 5%;
+}
+
+.card-text2{
+  /* grid-area: media-text-content; */
+  
+  margin-right: -100px;
+  background-color: white;
+  height: 80%;
+  width: 70%;
+  align-content: center;
+  font-size: 20px;
+  padding: 5%;
+  z-index: 1;
+}
+
+.card-text3{
+  /* grid-area: media-text-content; */
+  
+  margin-left: -300px;
+  background-color: white;
+  height: 80%;
+  width: 70%;
+  align-content: center;
+  font-size: 20px;
+  padding: 5%;
+}
+
+.card-text-title{
+  color: #00a0d2;
+
+}
+
+
+
 
 .header-image{
   max-width: 100%;
@@ -106,5 +150,25 @@ a {
   color: white;
   z-index: 1;
   font-family: Jost, Helvetica Neue, Arial Narrow, sans-serif;
+  font-weight: 500;
 }
+
+.map{
+  text-align: center;
+  background-color: #1da64a;
+  margin-top: 100px;
+  padding: 10%;
+  color: white;
+}
+
+.map p{
+  font-size: 20px;
+}
+
+.content{
+  font-family: Jost, Helvetica Neue, Arial Narrow, sans-serif;
+  font-weight: 500;
+}
+
+
   
