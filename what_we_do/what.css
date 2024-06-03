@@ -1,0 +1,164 @@
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.navbar{
+  border: 1px solid red;
+  height: 50px;
+  display: flex; 
+  justify-content: center; align-items: center;
+}
+
+.navbar-box{
+  border: 1px solid orange;
+  height: 50px; width: 700px;
+}
+
+.green{
+  border: 1px solid green;
+  background-color: #4fa455;
+  height: 50px; border-radius: 10px;
+  display: flex; 
+}
+
+.nav{
+  border: 1px solid blue;
+  flex-grow: 1; flex-basis: 0;
+  display: flex; align-items: center; justify-content: center;
+  color:white;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Jost", "Helvetica Neue", "Arial Narrow", sans-serif;
+}
+
+.main {
+  background-image: url('https://fridaysforfuture.org/wp-content/uploads/2020/04/G_Gutierrez_270919_Global-Climate-Strike_Madrid_01_2MB-1920x1080.webp');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: #90d3ed;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.title-background {
+  width: 100%; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  color: #fff;
+  padding: 10px 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.description {
+  background-color: #1b7340;
+  color: white;
+  font-size: 20px;
+  padding-left: 23%;
+  padding-right: 23%;
+}
+
+.green-box {
+  height: 300px;
+  width: 720px;
+  background-color: #1b7340;
+  background-position: top;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .green-box {
+      height: 700px;
+  }
+  
+  .description {
+      background-color: #1b7340;
+      color: white;
+      font-size: 20px;
+      padding: 0;
+  }
+}
+
+.container {
+  background-color: #90d3ed;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33%;
+}
+
+.box p {
+  font-family: "Cardenio Modern", "Helvetica Neue", "Arial Narrow", sans-serif;
+  color: #000;
+  justify-content: center;
+}
+
+.box img {
+  width: 200px;
+  height: 180px; 
+  justify-content: center;
+}
+
+button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 30px;
+  background-color: #1da64a;
+  font-family: "Merriweather Sans", "Futura", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: #1da64a;
+}
+
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+  }
+
+  .column {
+      flex-basis: 100%;
+  }
+
+  .box {
+      margin: 10px auto;
+  }
+}
